@@ -63,3 +63,17 @@ nav ul li{
 .navbar-nav > li a.active, .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 } 
+h1{
+  text-align: center;
+  font-family: sans-serif;
+}
+p{
+  text-align: center;
+}
+.header-wraper{
+  position: relative;
+  background: url(background.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
