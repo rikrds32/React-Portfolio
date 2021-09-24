@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import logo from "../logo.png"
 
 const Navbar = () => {
@@ -12,13 +12,15 @@ const Navbar = () => {
       <div clasName="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="#">Abot me <span class="sr-only">(current)</span></a>
+            <a className="nav-link"  href="#aboutme"
+          onClick={() => ('aboutme')} >About me <span class="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">Projects</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Contact Me</a>
+            <a className="nav-link" href="#contact"
+          onClick={() => ('contact')} >Contact Me</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#"></a>
